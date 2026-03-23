@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(npx tsc:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm tsc:*)",
+      "Bash(pnpm vite:*)",
+      "Bash(pnpm remove:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm build:*)",
+      "Bash(git stash:*)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_type",
+      "Bash(pnpm exec:*)",
+      "Bash(pnpm run:*)",
+      "Bash(pnpm dev:*)",
+      "Bash(wc -l src/components/**/*.tsx src/components/**/*.ts src/pages/*.tsx src/api/*.ts src/lib/*.ts src/hooks/*.ts src/types.ts)",
+      "Bash(wc -l /Volumes/External/Code/signon-homework/src/components/**/*.tsx /Volumes/External/Code/signon-homework/src/api/*.ts /Volumes/External/Code/signon-homework/src/hooks/*.ts)",
+      "Bash(wc -l /Volumes/External/Code/signon-homework/src/components/ui/*.tsx)"
+    ]
+  }
+}

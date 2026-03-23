@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  /* DB color tokens */
+
+  --color-db-white: hsl(0, 0%, 100%);
+  --color-db-black: hsl(220, 15.79%, 18.63%);
+  --color-db-red: hsl(354.41, 100%, 46.27%);
+  --color-db-muted: hsl(220, 6.98%, 42.16%);
+  --color-db-light-grey: hsl(204, 33.33%, 97.06%);
+
+  --color-db-select-bg: hsl(204, 20%, 95.1%);
+  --color-db-select-border: hsl(210, 14.29%, 86.27%);
+  --color-db-select-text: hsl(220, 15.79%, 18.63%);
+
+  --color-db-focus-blue: hsl(198.78, 63.9%, 40.2%);
+  --color-db-success-bg: hsl(90, 100%, 96.47%);
+  --color-db-warning-bg: hsl(50.4, 100%, 95.1%);
+
+  --shadow-db-shadow: 0 0.375rem 0.5rem 0 rgba(40, 45, 55, 0.1);
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  --font-sans:
+    "DB Neo Screen Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  --font-heading:
+    "DB Neo Screen Head", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+
+  /* shadcn colors */
+
+  --color-primary: var(--color-db-black);
+  --color-primary-foreground: var(--color-db-white);
+  --color-hover: var(--color-db-light-grey);
+
+  --color-ring: var(--color-db-focus-blue);
+  --color-input: var(--color-db-select-border);
+  --color-input-bg: var(--color-db-select-bg);
+  --color-border: var(--color-db-select-border);
+  --color-popover: var(--color-db-white);
+  --color-popover-foreground: var(--color-db-black);
+  --color-background: var(--color-db-white);
+  --color-muted-foreground: var(--color-db-muted);
+  --color-destructive: var(--color-db-red);
+  --color-muted: var(--color-db-light-grey);
+
+  --text-xs: 0.75rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+}
+
+:root {
+  scrollbar-color: var(--color-db-red) transparent;
+  scrollbar-width: thin;
+  scrollbar-track-color: transparent;
+}
+
+@layer base {
+  hr {
+    @apply border-t border-border my-6;
+  }
+}
