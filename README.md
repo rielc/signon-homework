@@ -14,6 +14,7 @@ This codebase should be regarded as a raw MVP. In a production context the follo
 - **Data modelling** — richer domain types, stricter validation at system boundaries, and a proper persistence layer.
 - **Documentation** — inline code documentation, architectural decision records, and contribution guidelines.
 - **Testing** — unit, integration, and end-to-end test coverage.
+- **Component composition** — further refinement of component boundaries and responsibilities.
 
 ## Quick start
 
